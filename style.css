@@ -52,3 +52,31 @@ section {
 .card p {
     color: #9ca3af;
   }
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #374151;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.card a:hover {
+    background: #4b5563;
+}
+
+footer {
+    padding: 30px;
+    color: #9ca3af;
+}
